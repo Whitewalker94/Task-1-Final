@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Phoenix Team</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img src="img/phoenix-graphic-png-graphic-design-logo-clipart-22b53a72c06b29d3.png" alt="" style="width:50px;height:50px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" dat-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                               <a href="#" class="nav-link">Home</a> 
+                            </li>
+                            <li class="nav-item active">
+                                <a href="login.html" class="nav-link">Sign In</a> 
+                             </li>
+                             <li class="nav-item">
+                                <a href="#" class="nav-link">Sign Up</a> 
+                             </li>
+                             <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a> 
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+
+<main class="container">
+<div class="row mx-0 justify-content-center">                
+    <div class="white-card auth-card mb-5">
+            
+        <h2 class="auth-header auth-center-pipe-line text-center">Sign In</h2>
+            
+        <p class="body-text colour-body-text text-center my-4">Enter your login details</p>    
+        <form id="loginForm" class="pt-4">
+                <input type="hidden" name="_token" value="DXzFASemyZzRbZQXPd3YcrzR9b2g1mWbAsmuh6Jk">
+                  <div class="form-group body-text">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control body-text" 
+                    id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" value="" required autofocus>
+                                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group body-text">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control body-text" id="password" placeholder="Password" required>
+                                        </div>
+
+                  <div class="row mx-0 justify-content-between">
+                  <div class="form-group form-check col">
+                    <input type="checkbox" class="form-check-input" id="remember_check" name="remember" >
+                    <label class="form-check-label body-text" for="remember_check">Remember me</label>
+                  </div>
+
+                  <span class="col pr-0">
+                   <a class="btn btn-link body-text p-0 colour-primary font-600 text-right" href="#">
+                                    Forgot Password?
+                    </a>
+                </span>
+                    </div>
+
+                  <button type="submit" class="btn btn-outline-danger body-text col form-control colour-accent-bg mt-3">Submit</button>
+
+                    <p class="text-center my-3 py-0 pr-0"><span class="body-text colour-body-text">Dont have an account?</span> &nbsp;<a class="btn btn-link body-text colour-primary py-0 pl-0 font-600" href="signup.html">Sign up</a></p>
+
+                 
+            </form>
+
+    </div>
+</div>
+</main>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>

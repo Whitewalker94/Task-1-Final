@@ -1,0 +1,31 @@
+.form-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #000;
+    width: 50%;
+}
+
+.white-card {
+    background-color: #ffffff;
+    padding: 3%;
+}
+
+form#loginForm.pt-4 {
+    padding: 200px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 0px;
+    padding: 24px 200px 24px;
+}
+
+div.white-card.auth-card.mb-5 {
+    padding: 24px 150px;
+}
+
+.shadow-sm {
+    box-shadow: none;
+}
+
+h2 {
+    color: rgb(175, 32, 32);
+}
